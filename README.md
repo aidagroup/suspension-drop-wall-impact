@@ -38,7 +38,7 @@ Main dataframe consists of:
 	- `particle_droplet_diameter_ratio` - particle-droplet diameter ratio $d_\text{p}/D_\text{drop}$;
 	- `sedimentation_Stk` - sedimentation Stokes number $\text{Stk}_\text{sed}$;
     - `inclination` - substrate inclination from the horizontal position [rad];
-	- `K` - K-parameter ( $K={\text{We}_{\text{imp}}}^{1/2}{\text{Re}_{\text{imp}}^{1/4}}$ ).
+	- `K` - K-parameter.
 - Five additional dimensionless features, which were excluded at the feature selection stage:
     - `particle_liquid_density_ratio` - particle-liquid density ratio $\rho_\text{p}/\rho_\text{l}$;
     - `sedimentation_Re` - sedimentation Reynolds number $\text{Re}_\text{sed}$;
