@@ -54,7 +54,7 @@ Main dataframe consists of:
     - `particle_density` - density of the particles $\rho_\text{p}$ [kg/$\text{m}^3$];
     - `droplet_diameter` - diameter of the droplet $D_\text{drop}$ [m];
     - `volume_fraction_binary` - binary division of suspensions by their `init_volume_fraction` $\phi_0$: if $\phi_0>0.5$, `volume_fraction_binary = 1`, else `= 0`;
-    - `no_mixing_time` - time without mixing suspensions before droplet generation $t_\text{no\_mix}$ [m];
+    - `no_mixing_time` - time without mixing suspensions before droplet generation $t_\text{no mix}$ [m];
     - `sedimentation_velocity` - particle sedimentation terminal velocity in suspensions $v_\text{term}$ [m/s];
     - `droplet_density` - density of the droplet, calculated based on `volume_fraction` and particle/liquid densities [kg/$\text{m}^3$];
     - `height` - height of the droplet generator above the substrate [m];
