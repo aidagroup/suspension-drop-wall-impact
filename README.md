@@ -38,7 +38,7 @@ Main dataframe consists of:
 	- `particle_droplet_diameter_ratio` - particle-droplet diameter ratio $d_\text{p}/D_\text{drop}$;
 	- `sedimentation_Stk` - sedimentation Stokes number $\text{Stk}_\text{sed}$;
     - `inclination` - substrate inclination from the horizontal position [rad];
-	- `K` - K-parameter ($K=\text{We}_\text{imp}^{1/2}\text{Re}_\text{imp}^{1/4}$).
+	- `K` - K-parameter ( $K={\text{We}_{\text{imp}}}^{1/2}{\text{Re}_{\text{imp}}^{1/4}}$ ).
 - Five additional dimensionless features, which were excluded at the feature selection stage:
     - `particle_liquid_density_ratio` - particle-liquid density ratio $\rho_\text{p}/\rho_\text{l}$;
     - `sedimentation_Re` - sedimentation Reynolds number $\text{Re}_\text{sed}$;
@@ -46,17 +46,17 @@ Main dataframe consists of:
     - `Re` - impact Reynolds number $\text{Re}_\text{imp}$;
     - `We` - impact Weber number $\text{We}_\text{imp}$.
 - Additional physical properties and features, which were used to derive the dimensionless features above:
-    - `roughness` - substrate roughness $\text{Ra}$ [$\mu \text{m}$];
-    - `liquid_density` - density of the liquid $\rho_\text{l}$ [kg/$\text{m}^3$];
+    - `roughness` - substrate roughness $\text{Ra}$ [µm];
+    - `liquid_density` - density of the liquid $\rho_\text{l}$ [kg/m^3];
     - `surface_tension` - surface tension of the liquid $\sigma_\text{l}$ [N/m];
     - `viscosity` - dynamic viscosity of the liquid $\mu_\text{l}$ [Pa $\cdot$ s];
     - `particle_mean_diameter` - mean diameter of the particles $d_\text{p}$ [m];
-    - `particle_density` - density of the particles $\rho_\text{p}$ [kg/$\text{m}^3$];
+    - `particle_density` - density of the particles $\rho_\text{p}$ [kg/m^3];
     - `droplet_diameter` - diameter of the droplet $D_\text{drop}$ [m];
     - `volume_fraction_binary` - binary division of suspensions by their `init_volume_fraction` $\phi_0$: if $\phi_0>0.5$, `volume_fraction_binary = 1`, else `= 0`;
-    - `no_mixing_time` - time without mixing suspensions before droplet generation $t_\text{no mix}$ [m];
+    - `no_mixing_time` - time without mixing suspensions before droplet generation $t_\text{no mix}$ [s];
     - `sedimentation_velocity` - particle sedimentation terminal velocity in suspensions $v_\text{term}$ [m/s];
-    - `droplet_density` - density of the droplet, calculated based on `volume_fraction` and particle/liquid densities [kg/$\text{m}^3$];
+    - `droplet_density` - density of the droplet, calculated based on `volume_fraction` and particle/liquid densities [kg/m^3];
     - `height` - height of the droplet generator above the substrate [m];
     - `drag_velocity` - vertical droplet velocity before the impact [m/s];
     - `velocity` - impact velocity normal to the substrate [m/s].
